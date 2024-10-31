@@ -1,0 +1,97 @@
+
+#contact{
+    background: #fafafa;
+  /* height: 900px; */
+  padding: 3rem 0;
+   
+ }
+ .frmcntct{
+   display: flex;
+   flex-direction: column;
+  
+ }
+ .container{
+   height: 90vh;
+   margin: auto;
+   width: 50%;
+   top: 10%;
+   left: 25%;
+   /* position: absolute; */
+   padding: 3rem;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+ }
+ .heading{
+    padding-top: 1rem;
+ }
+ .label{
+    color: #666;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+ }
+ .inpt{
+    color: #333;
+    padding: 1.2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+ }
+ .frmbtn{
+    background: #7843E9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
+    min-width: 150px;
+    padding: 1.2rem 1.5rem;
+    align-self: center;
+
+ }
+
+ /* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+   .container {
+       width: 90%; /* Full width on mobile */
+       padding: 2rem; /* Reduce padding */
+   }
+
+   .label,
+   .inpt,
+   .frmbtn {
+       font-size: 1rem; /* Adjust font size */
+   }
+}
+/* Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+   .container {
+       width: 80%; /* Wider on tablets */
+   }
+
+   .label,
+   .inpt,
+   .frmbtn {
+       font-size: 1.1rem; /* Slightly increase font size */
+   }
+}
+/* Small screens, laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   .container {
+       width: 70%; /* Moderate width on larger screens */
+   }
+}
