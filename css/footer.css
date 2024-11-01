@@ -84,7 +84,7 @@ text-align: center;
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
     footer{
-        height: 30vh;
+        height: 35vh;
     }
     .footer-rights{
         /* padding-top: 8%; */
