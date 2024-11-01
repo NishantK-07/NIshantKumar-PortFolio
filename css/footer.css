@@ -81,7 +81,17 @@ text-align: center;
     color: #fff;
 }
 
-@media (max-width: 600px) {
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+    .footer-rights{
+        padding-top: 8%;
+    }
+    .footer-first h1{
+        font-size: 2.5rem;
+    }
+ }
+ /* Tablets (481px - 768px) */
+ @media (min-width: 481px) and (max-width: 768px) {
     .footer-rights{
         padding-top: 8%;
     }
@@ -89,6 +99,10 @@ text-align: center;
         font-size: 3rem;
     }
  }
+ /* Small screens, laptops (769px - 1024px) */
+ @media (min-width: 769px) and (max-width: 1024px) {
+    
+ }   
       
 
       
