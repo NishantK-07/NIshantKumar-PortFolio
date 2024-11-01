@@ -97,6 +97,9 @@ text-align: center;
          margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
+.btntop{
+        padding: 0.5rem 0.8;
+    }
 }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
