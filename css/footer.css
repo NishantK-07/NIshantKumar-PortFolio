@@ -89,21 +89,22 @@ text-align: center;
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
     footer{
-        height: 35vh;
+        height: 30vh;
     }
     .footer-rights{
         /* padding-top: 8%; */
         font-size: 1rem;
     }
     .footer-first h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
-.socialsfoot a{
-         margin-top: 1rem;
+    .socialsfoot a{
+        font-size: 1.5rem;
+        margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
-.btntop{
-        padding: 0.5rem 0.8;
+    .btntop{
+        padding: 0.5rem 0.6;
     }
 }
  /* Tablets (481px - 768px) */
