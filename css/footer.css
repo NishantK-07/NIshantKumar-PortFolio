@@ -104,7 +104,9 @@ text-align: center;
         margin-bottom: 0.5rem;
     }
     .btntop{
-        padding: 0.5rem 0.6;
+width: 5rem;
+     height: 3rem;
+       padding: 0.5rem 0.6;
     }
 }
  /* Tablets (481px - 768px) */
