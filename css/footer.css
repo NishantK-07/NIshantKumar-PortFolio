@@ -93,7 +93,10 @@ text-align: center;
     .footer-first h1{
         font-size: 2.5rem;
     }
- }
+.socialsfoot a{
+        margin-top: 0;
+    }
+}
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
    footer{
