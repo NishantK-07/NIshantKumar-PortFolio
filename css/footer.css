@@ -83,14 +83,26 @@ text-align: center;
 
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
-    
+    footer{
+        height: 30vh;
+    }
+    .footer-rights{
+        /* padding-top: 8%; */
+        font-size: 1rem;
+    }
     .footer-first h1{
         font-size: 2.5rem;
     }
  }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
-    
+   footer{
+        height: 40vh;
+    }
+    .footer-rights{
+        /* padding-top: 8%; */
+        font-size: 1rem;
+    }
     .footer-first h1{
         font-size: 3rem;
     }
