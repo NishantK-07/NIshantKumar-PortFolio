@@ -101,10 +101,6 @@ h2 {
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
-.skills{
-    margin-top: 1.5rem;
-}
-
 .about-content-detail p{
     font-size: 1.2rem;
     line-height: 1.7;
@@ -133,6 +129,10 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
+.skills{
+    margin-top: 1.5rem;
+}
+
 
 .skills {
     display: grid;
@@ -161,8 +161,8 @@ h2 {
 
  @media (max-width: 800px) {
     .secondsecontainer{
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
     }
     .about-content-title{
         text-align: center;
