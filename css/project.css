@@ -1,8 +1,22 @@
 /* project
  */
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ #particles-js{
+  width:100%;
+   height:100vh;
+   background-color: #f0f8ff;
+ }
+ #particles-js h1{
+  color: black;
+ }
  #projects{
    padding: 3rem 0;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background-color: #000033;
  }
  .cards{
    margin: auto;
@@ -12,6 +26,12 @@
    gap: 3rem;
   
   
+ }
+ .clr{
+   color: white;
+ }
+ .clr2{
+   color: #b9b6b6; 
  }
  .card{
    border-radius: 1.5rem;

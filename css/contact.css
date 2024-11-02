@@ -2,20 +2,23 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   /* border: 1px solid black; */
 }
-#contact{
-    background: #fafafa;
+.contact{
+  
+    background-color: #f0f8ff;
   /* height: 900px; */
   padding: 3rem 0;
    
  }
+ 
  .frmcntct{
    display: flex;
    flex-direction: column;
   
  }
  .container{
-   height: 90vh;
+   height: 85vh;
    margin: auto;
    width: 50%;
    top: 10%;

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
 }
 
 :root {
@@ -32,7 +33,8 @@ body{
 /* about */
 
 .about{
-    background: #fafafa;
+    /* background: #fafafa; */
+    background-color:  #f0f8ff;
 }
 .secpad{
     padding-bottom: 6rem ;
@@ -59,7 +61,7 @@ h2 {
     unicode-bidi: isolate;
 }
 .heading-sec__main {
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
     display: block;
     font-size: 3rem;
     font-weight: 700;
@@ -91,18 +93,15 @@ h2 {
     padding: 0;
 }
 .about-content-title{
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
     font-weight: 700;
     font-size: 1.8rem;
     font-weight:bold;
-    
+    color: black;
 }
 .about-content-detail{
     margin-top: 1.5rem;
     margin-bottom: 3rem;
-}
-.skills{
-    margin-top: 1.5rem;
 }
 
 .about-content-detail p{
@@ -110,6 +109,9 @@ h2 {
     line-height: 1.7;
     color: #666;
     margin-bottom: 1rem;
+}
+.about-content-detail strong{
+    color: #5f5d5d;
 }
 .button-container {
     display: flex; /* Use flexbox for the button container */
@@ -119,7 +121,7 @@ h2 {
 
 .btn{
     font-family: 'Source Sans Pro', sans-serif;
-   
+    
     text-decoration: none;
     background: #7843E9;
     color: #fff;
@@ -127,27 +129,68 @@ h2 {
     font-size: 1.2rem;
     
     letter-spacing: 1px;
- 
-  
+    
+    
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
+/* skill section */
+.skillsection{
+    padding-top: 5rem;
+height: 100vh;
+background:   linear-gradient(to bottom right, #8000ff, #4b0082);
+}
+.aboutcontenttitleskill{
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-weight: 700;
+    font-size: 3rem;
+    font-weight:bold;
+    color: #fafafa;
+    text-align: center;
+    
+}
+.about-skills{
+    border-radius: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    /* margin-top: 10rem; */
+    background-color: #4b0082;
+    
+}
 .skills {
+    border-radius: 1rem;
+    /* background-color:rgb(57, 57, 124) ; */
+  /* background-color: #282c34; */
+    margin-top: 1.5rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Responsive grid */
     gap: 1rem; /* Adjust gap between bubbles */
 }
+.skillimg {
+width: 4rem;
+height: 4rem;
 
+background: #15032f;
+}
+.skillimg img{
+}
 .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0.8rem 1.3rem;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    background: rgba(153, 153, 153, 0.2);
+    height: 8rem;
+    
+    background-color: #15032f;
     border-radius: 30px; /* Make it more bubble-like */
     font-weight: 600;
-    color: #666;
+    color: #ffffff;
     border: 1px solid rgba(153, 153, 153, 0.4); /* Subtle border */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
