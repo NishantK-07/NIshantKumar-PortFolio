@@ -157,7 +157,7 @@ background:   linear-gradient(to bottom right, #8000ff, #4b0082);
     margin-right: 10rem;
     /* margin-top: 10rem; */
     background-color: #4b0082;
-    
+    margin-bottom: 1rem;
 }
 .skills {
     border-radius: 1rem;
@@ -166,7 +166,7 @@ background:   linear-gradient(to bottom right, #8000ff, #4b0082);
     margin-top: 1.5rem;
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); /* Responsive grid */
     gap: 1rem; /* Adjust gap between bubbles */
 }
 .skillimg {
