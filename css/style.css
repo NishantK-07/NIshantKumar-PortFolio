@@ -213,6 +213,9 @@ background: #15032f;
     .about-skills{
         margin-left: 2rem;
         margin-right: 2rem; 
+       
+    }
+    .wrapper{
         margin-bottom: 2rem;
     }
  }
