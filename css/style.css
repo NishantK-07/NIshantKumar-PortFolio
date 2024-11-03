@@ -201,7 +201,40 @@ background: #15032f;
 }
 
 
-
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+    .skillsection{
+        padding-top: 1rem;
+    }
+    .aboutcontenttitleskill{
+        font-size: 2.6rem;
+       
+    }
+    .about-skills{
+        
+        margin-left: 2rem;
+        margin-right: 2rem; 
+    }
+ }
+ /* Tablets (481px - 768px) */
+ @media (min-width: 481px) and (max-width: 768px) {
+    .skillsection{
+        padding-top: 1rem;
+    }
+    .aboutcontenttitleskill{
+        font-size: 2.6rem;
+       
+    }
+    .about-skills{
+        
+        margin-left: 4rem;
+        margin-right: 4rem; 
+    }
+ }
+ /* Small screens, laptops (769px - 1024px) */
+ @media (min-width: 769px) and (max-width: 1024px) {
+   
+ }
  @media (max-width: 800px) {
     .secondsecontainer{
       display: flex;

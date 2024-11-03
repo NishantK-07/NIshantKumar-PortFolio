@@ -149,6 +149,10 @@ font-size: 1.2rem;
     footer{
         height: 45vh;
     }
+    .footer-first{
+        display: flex;
+        flex-direction: column;
+    }
     .footer-rights{
         /* padding-top: 8%; */
         font-size: 1rem;
@@ -172,12 +176,22 @@ width: 5rem;
    footer{
         height: 45vh;
     }
+    .footer-first{
+        display: flex;
+        flex-direction: column;
+    }
     .footer-rights{
         /* padding-top: 8%; */
         font-size: 1rem;
     }
     .footer-first h1{
         font-size: 3rem;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
  }
  /* Small screens, laptops (769px - 1024px) */
