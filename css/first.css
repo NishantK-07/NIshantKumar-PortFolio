@@ -129,6 +129,7 @@ box-sizing: border-box;
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
     .first {
+        height: auto;
         flex-direction: column;
     }
     .leftsection{
@@ -150,8 +151,10 @@ box-sizing: border-box;
  }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
-    .first .leftsection,.rightsection{
+    .first {
+        flex-direction: column;
         width: 100%;
+        height: auto;
     }
     .leftsection{
         font-size: 2rem;

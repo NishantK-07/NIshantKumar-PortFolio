@@ -175,7 +175,8 @@ height: 4rem;
 
 background: #15032f;
 }
-.skillimg img{
+.wrapper{
+    padding-bottom: 2rem;
 }
 .skill {
     display: flex;
@@ -214,10 +215,9 @@ background: #15032f;
         margin-left: 2rem;
         margin-right: 2rem; 
        
-    }
-    .wrapper{
         margin-bottom: 2rem;
     }
+   
  }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
@@ -229,10 +229,12 @@ background: #15032f;
        
     }
     .about-skills{
-        
-        margin-left: 4rem;
-        margin-right: 4rem; 
+        margin-left: 2rem;
+        margin-right: 2rem; 
+       
+        /* margin-bottom: 2rem; */
     }
+    
  }
  /* Small screens, laptops (769px - 1024px) */
  @media (min-width: 769px) and (max-width: 1024px) {
