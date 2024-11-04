@@ -147,11 +147,11 @@ font-size: 1.2rem;
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
     footer{
-        height: 45vh;
+        height: 100vh;
     }
     .footer-first{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .footer-rights{
         /* padding-top: 8%; */
@@ -174,7 +174,7 @@ width: 5rem;
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
    footer{
-        height: 45vh;
+        height: 100vh;
     }
     .footer-first{
         display: flex;
