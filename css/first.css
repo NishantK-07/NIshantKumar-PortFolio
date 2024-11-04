@@ -132,19 +132,24 @@ box-sizing: border-box;
         height: auto;
         flex-direction: column;
         align-items: center;
+        
     }
     .first .leftsection,.rightsection{
+        width: 100%;
         text-align: center;
-
     }
     .leftsection{
+        text-align: center;
         font-size: 2rem;
-        /* margin-top: 4rem; */
-        /* margin-left: 5rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .rightsection{
         margin-top: 0;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .rightsection img{
         width: 80%;
@@ -152,23 +157,39 @@ box-sizing: border-box;
     .socials a{
         height: 3.4rem;
     width: 3.4rem;
+    }
+    .leftsection .purple{
+        font-size: 4rem;
+        display: block;
+        /* text-align: center; */
+        width: 100%;
+        
     }
  }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
     .first {
         flex-direction: column;
+        align-items: center;
         width: 100%;
         height: auto;
     }
+    .first .leftsection,.rightsection{
+        width: 100%;
+        /* text-align: center; */
+    }
     .leftsection{
+        text-align: center;
         font-size: 2rem;
-        /* margin-top: 4rem; */
-        margin-left: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .rightsection{
         margin-top: 0;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .rightsection img{
         width: 80%;
@@ -176,6 +197,13 @@ box-sizing: border-box;
     .socials a{
         height: 3.4rem;
     width: 3.4rem;
+    }
+   .leftsection .purple{
+    font-size: 4rem;
+        display: block;
+        /* text-align: center; */
+        width: 100%;
+        
     }
  }
  /* Small screens, laptops (769px - 1024px) */
