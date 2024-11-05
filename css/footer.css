@@ -154,16 +154,18 @@ font-size: 1.2rem;
         /* align-items: center; */
         align-items: flex-start;
         justify-content: flex-start;
+        gap: 2rem;
     }
     .sec1 h1{
         margin-left: 0;
     }
     .sec3{
-        margin-left: 2rem;
+        margin-left: 0;
         align-items: center;
+        text-align: center;
     }
     .sec1 .secinner p{
-        margin-left: 1rem;
+        margin-left: 0;
         padding-bottom: .8rem;
     }
     .sec2{
@@ -172,16 +174,17 @@ font-size: 1.2rem;
         /* justify-content: flex-start;
         align-items: flex-start; */
         margin:0;
-    }
-   
-    .secinner p{
-   
-        margin-left: 1rem;
-        
+        align-items: flex-start;
     }
     .secinner{
         margin: 0;
     }
+    .secinner p{
+   
+        margin-left: 1rem;
+        text-align: left;
+    }
+    
     .innericon{
        margin: 0;
     }
