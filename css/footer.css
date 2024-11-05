@@ -197,8 +197,8 @@ font-size: 1.2rem;
     .line {
         margin: 0 auto;
     }
-    .socialsfoot {
-        /* margin-top: 1rem; */
+    /* .socialsfoot {
+        margin-top: 1rem;
         display: flex;
         justify-content: space-between; 
     }
@@ -207,7 +207,7 @@ font-size: 1.2rem;
         height: 2.8rem;
         width: 2.8rem;
         margin: 0 0.5rem; 
-    }
+    } */
     
     .sec2 .secinner,.socialsfoot{
         margin-left: 2rem;
