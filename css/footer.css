@@ -182,7 +182,8 @@ font-size: 1.2rem;
         padding-left: 0;
     }
     .innericon{
-       justify-content: center;
+        margin-left: 0;
+        padding-left: 0;
     }
     .line {
         margin: 0 auto;
