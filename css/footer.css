@@ -170,6 +170,11 @@ font-size: 1.2rem;
         align-items: flex-start;
         margin-left: 0;
     }
+    .secinner p{
+   
+        margin-left: 0;
+        
+    }
     .innericon{
         margin-left: 0;
     }
