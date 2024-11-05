@@ -151,6 +151,7 @@ font-size: 1.2rem;
     }
     .footer-first{
         flex-direction: column;
+        align-items: center;
     }
     .sec1 h1{
         margin-left: 0;
@@ -170,13 +171,18 @@ font-size: 1.2rem;
         align-items: flex-start;
         margin-left: 0;
     }
+   
     .secinner p{
    
-        margin-left: 0;
+        margin-left: 1rem;
         
     }
-    .innericon{
+    .secinner{
         margin-left: 0;
+        padding-left: 0;
+    }
+    .innericon{
+       justify-content: center;
     }
     .line {
         margin: 0 auto;
@@ -206,16 +212,7 @@ font-size: 1.2rem;
         margin-left: 2rem;
         align-items: center;
     }
-    .sec2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-    }
-    .sec2 .secinner,.socialsfoot{
-        margin-left: 0;
-    }
+    
     .secinner p{
    
         margin-left: 2rem;
@@ -225,6 +222,16 @@ font-size: 1.2rem;
     .sec1 .secinner p{
         margin-left: 2rem;
         padding-bottom: .8rem;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec2 .secinner,.socialsfoot{
+        margin-left: 0;
     }
     .sec2 {
         margin: 0;
