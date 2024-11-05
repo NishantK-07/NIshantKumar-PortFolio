@@ -151,7 +151,7 @@ font-size: 1.2rem;
     }
     .footer-first{
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
     .sec1 h1{
         margin-left: 0;
