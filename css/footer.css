@@ -169,7 +169,7 @@ font-size: 1.2rem;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-left: 0;
+        margin:0;
     }
    
     .secinner p{
@@ -178,8 +178,7 @@ font-size: 1.2rem;
         
     }
     .secinner{
-        margin-left: 0;
-        padding-left: 0;
+        margin: 0;
     }
     .innericon{
         margin-left: 0;
