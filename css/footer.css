@@ -286,6 +286,12 @@ font-size: 1.2rem;
     .sec3 ul li {
         font-size: 1rem;
     }
+    .spaceright{
+        margin-right: 2rem;
+    }
+    .sec2 .secinner,.socialsfoot{
+        margin-left: 0;
+    }
 }
  /* Tablets (481px - 768px) */
  @media (min-width: 481px) and (max-width: 768px) {
