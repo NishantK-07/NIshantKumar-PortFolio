@@ -148,6 +148,37 @@
    transform: translateY(0);
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .timeline-item {
+       flex-direction: column;  /* Stack content and image vertically */
+       align-items: center;  /* Center the items */
+   }
+
+   .timeline-item img {
+       width: 80%;  /* Make image smaller on mobile */
+       margin-top: 20px;
+     height: 16rem;
+   }
+
+   .timeline-item .content {
+       width: 80%;  /* Make content take 80% width on mobile */
+       margin-bottom: 20px;
+       
+   }
+
+   /* Adjust the timeline line position for mobile */
+   .timeline::before {
+       left: 2%;
+       width: 4px;
+   }
+
+   /* Center the timeline items around the vertical line */
+   .timeline-item:nth-child(even) {
+       flex-direction: column; /* Place content below image on mobile */
+   }
+}
+
 /* Media Query for Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
    .timeline-item {
