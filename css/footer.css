@@ -156,12 +156,18 @@ font-size: 1.2rem;
         justify-content: flex-start;
         
     }
+    .footer-first h1{
+        font-size: 2rem;
+        text-align: left;
+    }
     .sec1 h1{
         margin-left: 0;
     }
     .sec3{
         margin-left: 2rem;
         align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .sec1 .secinner p{
         margin-left: 2rem;
@@ -173,7 +179,7 @@ font-size: 1.2rem;
         justify-content: flex-start;
         align-items: flex-start;
         margin: 0;
-        margin-left: 0;
+        margin-left: 1.5rem;
 
     }
    
@@ -191,8 +197,8 @@ font-size: 1.2rem;
         margin-right: 0;
     }
     .innericon{
-       margin: 0;
-       margin-left: 0;
+       
+       margin-left: 1rem;
     }
     .line {
         margin: 0 auto;
@@ -223,11 +229,11 @@ font-size: 1.2rem;
         flex-direction: column;
     }
     .footer-rights{
-        
+        margin-top: 0;
         font-size: 1rem;
     }
     .footer-first h1{
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: left;
     }
     .sec1 h1{
@@ -236,6 +242,8 @@ font-size: 1.2rem;
     .sec3{
         margin-left: 2rem;
         align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     
     .secinner p{
@@ -265,14 +273,14 @@ font-size: 1.2rem;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
     .innericon{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     
     .line {
-        margin: 1rem auto;
+        margin: .5rem auto;
     }
  }
  /* Small screens, laptops (769px - 1024px) */
