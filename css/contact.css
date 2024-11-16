@@ -72,6 +72,9 @@
     border-radius: 5px;
     font-weight: 600;
  }
+ .txtarea{
+   resize: none;
+ }
  .frmbtn{
     background: #7843E9;
     color: #fff;
