@@ -97,7 +97,7 @@
  /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
    .container {
-height:85vh;
+height:80vh;
       width: 90%; /* Full width on mobile */
        padding: 2rem; /* Reduce padding */
    }
